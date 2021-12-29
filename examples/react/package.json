@@ -1,0 +1,23 @@
+{
+    "name": "react",
+    "version": "1.0.0",
+    "description": "a puppeteer demo for react ssr",
+    "main": "index.ts",
+    "author": "wlw",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+        "koa": "^2.13.4",
+        "koa-router": "^10.1.1",
+        "puppeteer": "^12.0.0"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.13.4",
+        "@types/koa-router": "^7.4.4",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.2"
+    }
+}
